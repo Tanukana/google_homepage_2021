@@ -1,23 +1,133 @@
 nav {
-
+    display: flex;
+    justify-content: space-between;
 }
 
 .left-links {
-
+    margin: 10px;
+    padding: 10px;
+    font-size: 15px;
 }
 
 .right-links {
-
+    margin: 10px;
+    padding: 10px;
+    flex: 1 1 20px;
+    text-align: right;
+    font-size: 15px;
 }
 
-.apps {
+.left-links > a {
+    margin: 6px;
+    padding: 5px;
+}
 
+.right-links > a {
+    margin: 6px;
+    padding: 5px;
+}
+
+.icons > span {
+    margin: 4px;
+    padding: 0px;
+    border-radius: 50%;
 }
 
 .profile {
+    margin: 4px;
+    padding: 0px;
+    border-radius: 50%;
+}
 
+.center-content {
+    text-align: center;
+    margin: 2em;
+    padding: 10em;
 }
 
 #logo {
+    margin: 1em;
+    padding: 0;
+}
 
+#search {
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+    padding: 0;
+    min-width: 100px;
+
+}
+
+#searchbar {
+    width: 500px;
+    height: 34px;
+    border-style: groove;
+    border-color: rgb(221, 218, 218);
+    border-radius: 100px;
+    outline: 0;
+    font-size: 16px;
+
+}
+
+.searchbtn {
+    padding: 10px;
+}
+
+.searchbtn > button {
+    margin: 5px;
+    padding: 6px;
+    font-size: 15px;
+    padding: 8px 12px;
+    border: transparent;
+    background-color: rgb(242, 242, 241);
+    color: rgb(100, 98, 98);
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    padding: 14px;
+    width: 98%;
+    background-color: rgb(238, 235, 235);
+    bottom: 0;
+}
+
+footer > div {
+
+}
+
+.left-footer > a {
+    margin: 6px;
+    padding: 6px;
+    font-size: 16px;
+}
+
+.right-footer > a {
+    margin: 6px;
+    padding: 6px;
+    font-size: 16px;
+}
+
+.center-footer {
+    width: 20em;
+    font-size: 16px;
+}
+
+#carbon > img {
+    max-height: 55%;
+    max-width: auto;
+}
+
+#search > label > span {
+    position: relative;
+    left: 32px;
+    top: 6px;
+}
+
+#search > span {
+    position: relative;
+    right: 32px;
+    top: 6px;
 }

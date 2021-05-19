@@ -2,6 +2,6 @@
 
 <ul>
     <li>My first ' mini ' project</li>
-    <li>Done through The Odin Project</li>
-    <li>Only HTML/CSS, no JS</li>
+    <li>Done through The Odin Project.</li>
+    <li>Only HTML/CSS, no JS.</li>
 </ul>
