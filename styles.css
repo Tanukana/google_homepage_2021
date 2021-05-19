@@ -62,12 +62,16 @@ nav {
 #searchbar {
     width: 500px;
     height: 34px;
-    border-style: groove;
-    border-color: rgb(221, 218, 218);
+    border-style: solid;
+    border-color: rgb(233, 233, 233);
     border-radius: 100px;
     outline: 0;
     font-size: 16px;
 
+}
+
+#searchbar:hover {
+    box-shadow: 1px 1px 1px rgb(218, 216, 216)
 }
 
 .searchbtn {
@@ -92,10 +96,6 @@ footer {
     width: 98%;
     background-color: rgb(238, 235, 235);
     bottom: 0;
-}
-
-footer > div {
-
 }
 
 .left-footer > a {
@@ -130,4 +130,14 @@ footer > div {
     position: relative;
     right: 32px;
     top: 6px;
+}
+
+.btn1:hover {
+    box-shadow: 1px 1px 1px lightgrey;
+    border: 1px solid lightgrey;
+}
+
+.btn2:hover {
+    box-shadow: 1px 1px 1px lightgrey;
+    border: 1px solid lightgrey;
 }
